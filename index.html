@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pantalla de inicio de sesión</title>
+ 
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <div class="card iniciosecion">
+    <h2 class="text-center">Inicio de sesión</h2>
+    <form onsubmit="return validarCampos()">
+      <div class="mb-3">
+        <label for="username" class="form-label">Usuario</label>
+        <input type="text" class="form-control" id="username" placeholder="Ingrese su usuario">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+      </div>
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+      </div>
+    </form>
+    <div class="text-center mt-3">
+      <a href="register.html">¿No tienes una cuenta? Regístrate aquí</a>
+    </div>
+  </div>
+  
+  <script src="js/bootstrap.min.js"></script>
+  <script src="script.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #308651; 
+    background-image: url(../tulipanes.png);
+    
+  }
+  
+   .btn-primary {
+    background-color: #0af81e; 
+    border-color: #0af81e; 
+  }
+
+#miclase{
+margin: 10% 5% 10% 5%;
+}
+
+.iniciosecion {
+    width: 50vh;
+    padding: 20px;
+    background-color:rgb(255 255 255 / 46%)
+}
+
